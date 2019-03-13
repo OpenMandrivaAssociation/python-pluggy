@@ -13,8 +13,10 @@ Source0:        https://github.com/untitaker/python-atomicwrites/archive/%{tarNa
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:	python-setuptools
+BuildRequires:  python-setuptools_scm
 BuildRequires:	python2-devel
 BuildRequires:	python2-setuptools
+BuildRequires:  python2-setuptools_scm
 
 %description
 Pluggy is the core framework used by the pytest, tox, and devpi projects.
