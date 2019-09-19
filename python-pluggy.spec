@@ -1,17 +1,18 @@
 %global tarName pluggy
 
 Name:           python-%{tarName}
-Version:        0.9.0
-Release:        1
+Version:	0.13.0
+Release:	1
 Summary:         A minimalist production ready plugin system
 
 Group:          Development/Python
 License:        BSD
 URL:            https://github.com/pytest-dev/pluggy
-Source0:        https://github.com/untitaker/python-atomicwrites/archive/%{tarName}-%{version}.tar.gz
+Source0:	https://github.com/pytest-dev/pluggy/archive/%{version}.tar.gz
 # Note: The above URL gets incomplete sources, get the sources from PyPi
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  git-core
 BuildRequires:	python-setuptools
 BuildRequires:  python-setuptools_scm
 BuildRequires:	python2-devel
@@ -29,6 +30,10 @@ Pluggy is the core framework used by the pytest, tox, and devpi projects.
 
 %prep
 %setup -qn %{tarName}-%{version}
+
+git init
+git add .
+git commit -am 'init'
 
 cp -a . %py2dir
 %build
