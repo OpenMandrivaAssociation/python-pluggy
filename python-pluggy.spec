@@ -31,6 +31,9 @@ Pluggy is the core framework used by the pytest, tox, and devpi projects.
 %prep
 %setup -qn %{tarName}-%{version}
 
+git config --global user.email "rpm@openmandriva.org"
+git config --global user.name "mock build"
+
 git init
 git add .
 git commit -am 'init'
