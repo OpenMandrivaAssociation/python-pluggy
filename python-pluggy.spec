@@ -2,7 +2,7 @@
 
 Name:           python-%{tarName}
 Version:	0.13.0
-Release:	1
+Release:	2
 Summary:         A minimalist production ready plugin system
 
 Group:          Development/Python
