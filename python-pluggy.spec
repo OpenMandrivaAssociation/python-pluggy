@@ -1,8 +1,8 @@
 %global tarName pluggy
 
 Name:           python-%{tarName}
-Version:	0.13.0
-Release:	2
+Version:	0.13.1
+Release:	1
 Summary:         A minimalist production ready plugin system
 
 Group:          Development/Python
