@@ -37,6 +37,7 @@ git config --global user.name "mock build"
 git init
 git add .
 git commit -am 'init'
+git tag %{version}
 
 cp -a . %py2dir
 %build
