@@ -2,14 +2,14 @@
 
 Name:           python-%{tarName}
 Version:	0.13.1
-Release:	1
+Release:	2
 Summary:         A minimalist production ready plugin system
 
 Group:          Development/Python
 License:        BSD
 URL:            https://github.com/pytest-dev/pluggy
-Source0:	https://github.com/pytest-dev/pluggy/archive/%{version}.tar.gz
-# Note: The above URL gets incomplete sources, get the sources from PyPi
+Source0:	https://files.pythonhosted.org/packages/f8/04/7a8542bed4b16a65c2714bf76cf5a0b026157da7f75e87cc88774aa10b14/pluggy-%{version}.tar.gz
+
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  git-core
