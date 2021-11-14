@@ -3,14 +3,14 @@
 %bcond_without python2
 
 Name:		python-%{pypi_name}
-Version:	0.13.1
-Release:	3
+Version:	1.0.0
+Release:	1
 Summary:	A minimalist production ready plugin system
 
 Group:		Development/Python
 License:	BSD
 URL:		https://github.com/pytest-dev/pluggy
-Source0:	https://files.pythonhosted.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/a1/16/db2d7de3474b6e37cbb9c008965ee63835bba517e22cdb8c35b5116b5ce1/pluggy-1.0.0.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
