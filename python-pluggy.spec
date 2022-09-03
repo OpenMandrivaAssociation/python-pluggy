@@ -1,10 +1,10 @@
 %global pypi_name pluggy
 
-%bcond_without python2
+%bcond_with python2
 
 Name:		python-%{pypi_name}
 Version:	1.0.0
-Release:	1
+Release:	2
 Summary:	A minimalist production ready plugin system
 
 Group:		Development/Python
