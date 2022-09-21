@@ -4,7 +4,7 @@
 
 Name:		python-%{pypi_name}
 Version:	1.0.0
-Release:	2
+Release:	3
 Summary:	A minimalist production ready plugin system
 
 Group:		Development/Python
