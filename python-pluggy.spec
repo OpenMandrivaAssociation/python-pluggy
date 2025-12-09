@@ -1,7 +1,7 @@
 %global pypi_name pluggy
 
 Name:		python-%{pypi_name}
-Version:	1.5.0
+Version:	1.6.0
 Release:	1
 Summary:	A minimalist production ready plugin system
 
